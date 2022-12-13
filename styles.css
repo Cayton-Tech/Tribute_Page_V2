@@ -1,0 +1,68 @@
+body {
+	height: 100%;
+	width:  100%;
+	margin: 0;
+}
+
+#background {
+	position: fixed;
+	min-height: 100vh;
+	object-fit: cover;
+	z-index: -1;
+	opacity: 90%;
+}
+
+.navbar {
+	position: fixed;
+	top: 0;
+	padding: 2em;
+}
+
+section {
+	height:  100%;
+	width:  100%;
+}
+
+#overview {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	min-height: 100vh;
+}
+
+#inventions {
+	display:  flex;
+	flex-direction: row;
+	flex-flow: wrap;
+	justify-content: space-evenly;
+	min-height: 100vh;
+}
+
+.img-inventions {
+	width: 40%;
+	height: 40%;
+	max-width: 350px;
+
+}
+
+img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+#awards {
+	display: flex;
+	justify-content: center;
+	min-height: 100vh;
+	align-items: center;
+}
+
+#documentaries {
+	display:  flex;
+	flex-flow: wrap;
+	justify-content: space-evenly;
+	min-height: 100vh;
+}
